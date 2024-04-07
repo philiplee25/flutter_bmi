@@ -23,7 +23,7 @@ class ResultScreen extends StatelessWidget {
     } else if (bmi >= 18.5) {
       result = '정상';
     }
-    return 'result';
+    return result;
   }
 
   Widget _buildIcon(double bmi) {
